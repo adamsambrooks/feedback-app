@@ -3,7 +3,13 @@
     "allow": [
       "Bash(gh --version:*)",
       "Bash(git add:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nfeat: Complete feedback app implementation with Supabase integration\n\n- Add feedback form with name, rating, and message fields\n- Implement API route for feedback submission\n- Configure Supabase client for database operations\n- Add comprehensive documentation (README, CLAUDE.md, ROADMAP.md)\n- Set up Next.js 16 with React 19 and TypeScript\n- Configure Tailwind CSS for styling\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(winget install:*)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" --version)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth status)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth login)",
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" repo create feedback-app --public --source=. --description=\"Anonymous feedback collection app built with Next.js and Supabase\" --push)"
     ],
     "deny": [],
     "ask": []
