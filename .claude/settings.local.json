@@ -9,7 +9,9 @@
       "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" --version)",
       "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth status)",
       "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" auth login)",
-      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" repo create feedback-app --public --source=. --description=\"Anonymous feedback collection app built with Next.js and Supabase\" --push)"
+      "Bash(\"C:\\Program Files\\GitHub CLI\\gh.exe\" repo create feedback-app --public --source=. --description=\"Anonymous feedback collection app built with Next.js and Supabase\" --push)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []
